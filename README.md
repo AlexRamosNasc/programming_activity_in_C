@@ -1,2 +1,2 @@
-# Atividades_de_Programação_em_C
-Compilado das minhas resoluções mais diversas, dos problemas lógicos da linguagem C.
+# Programming_Activity_in_C
+## This repository is compiled from my various solutions to logical problems in the C programming language.
