@@ -2,17 +2,13 @@
 
 int main(){
     
-    float Nota, A, B, C;
+    int Numero;
     
-    scanf ("%f %f %f", &A, &B, &C);
-    Nota = (A + B + C) / 3;
-    
-    if (Nota >= 6){
-        printf ("Média: %.2f\n", Nota);
-        printf ("Aprovado");
+    scanf ("%d", &Numero);
+    if (Numero % 2 == 0){
+        printf ("Par");
     }
     else{
-        printf ("Média: %.2f\n", Nota);
-        printf ("Reprovado");
+        printf ("Ímpar");
     }
 }
