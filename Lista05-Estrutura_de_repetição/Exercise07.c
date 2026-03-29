@@ -26,3 +26,4 @@ printf("Porcentagem de pessoas do sexo masculino: %.2f%%\nMédia de idade do sex
     
 return 0;
 }
+TERMINAR
