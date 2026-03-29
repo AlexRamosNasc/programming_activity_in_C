@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    int Num;
+    int Num, Maior, Menor;
+    
     for(int I = 1; I <= 30; I++){
-        scanf("%d", Num);
+        scanf("%d", &Num);
         if(I == 1){
             Maior = Num;
             Menor = Num;
@@ -16,7 +17,5 @@ int main(){
         }
     }
 
-printf("Maior: %d\nMenor: %d\n", Num, Num)
+printf("Maior: %d\nMenor: %d\n", Maior, Menor);
 }
-
-terminar
