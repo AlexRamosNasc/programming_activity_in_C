@@ -2,15 +2,21 @@
 
 int main()
 {
-    int Num, N, i;
     int A[20], B[20];
     
     for(int i = 0; i < 10; i++){
-        scanf("%d", &Num);
+        scanf("%d", &A[i]);
     }
-    for(int i = 0; i < 10; i++){
-        B[i] = A[9 - i];
+    
+    for(int j = 0; j < 10; j++){
+        B[j] = A[9 - j];
     }
-    printf("%d", B[i]);
+    for(int k = 0; k < 10; k++){
+        printf("%d ", A[k]);
+    }
+
+    for(int k = 0; k < 10; k++){
+        printf("%d ", B[k]);
+    }
     return 0;
-}TERMINAR
+}
