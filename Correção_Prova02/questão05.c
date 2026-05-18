@@ -38,4 +38,5 @@ int main(){
   for(int i = 0; i < 12; i++){
     printf("%.2f\n", totalMes[i]);
   }
+  return 0;
 }
