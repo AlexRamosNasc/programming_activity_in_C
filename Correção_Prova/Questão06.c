@@ -1,19 +1,32 @@
 #include <stdio.h>
-
 int main(){
-    float n, x, r, e;
-    scanf("%f %f", &n, &x);
-    r = x;
-    while(e > 0.0001){
-      e = r * r - n;
-      if(e < 0){
-        e = e * -1;
-      }
-      if(e >= 0.0001){
-        x = r;
-        r = (x + n / x) / 2;
-      }
+    double n, x, r, E;
+
+    scanf("%lf %lf", &n, &x);
+    while (n < 0 || x < 0){
+        printf("Entrada invalida");
+        scanf("%lf %lf", &n, &x);
     }
-    printf("%.6f", r);
+
+    r = x;
+
+    E = (r * r) - n;
+    if(E < 0){
+        E = E * -1;
+    }
+
+    while(E > 0.0001){
+        E = (r * r) - n;
+        if(E < 0){
+            E = E * -1;
+        }
+
+        if(E >= 0.0001){
+            x = r;
+            r = (x + (n / x)) / 2;
+        }
+    }
+    printf("%lf", r);
+
     return 0;
 }
