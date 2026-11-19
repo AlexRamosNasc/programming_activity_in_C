@@ -1,1 +1,0 @@
-A exibição é assim por conta do display: flex; que faz todos os div ficar em uma linha e a largura de todos serem 25% da linha.

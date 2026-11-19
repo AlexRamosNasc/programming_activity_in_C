@@ -1,1 +1,0 @@
-A exibição é assim por conta da position: fixed; que permite altera a possição de cada div na pagina em comparação a o ponto inicial.

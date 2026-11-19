@@ -1,1 +1,0 @@
-A exibição é assim por conta de cada div ser em uma linha diferente e ocupar 100% da linha.
